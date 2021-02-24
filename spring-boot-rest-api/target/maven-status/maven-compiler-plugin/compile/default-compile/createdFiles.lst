@@ -1,0 +1,4 @@
+com\example\restservice\repository\HospitalRepository.class
+com\example\restservice\models\hospital\Address.class
+com\example\restservice\controllers\hospital\HospitalController.class
+com\example\restservice\models\hospital\Hospital.class
