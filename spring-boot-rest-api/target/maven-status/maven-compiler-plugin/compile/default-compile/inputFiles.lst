@@ -1,3 +1,4 @@
+F:\virtualInternship\InternID-e-int212b061\spring-boot-rest-api\src\main\java\com\example\restservice\controllers\test\TestController.java
 F:\virtualInternship\InternID-e-int212b061\spring-boot-rest-api\src\main\java\com\example\restservice\controllers\tutorial\TutorialController.java
 F:\virtualInternship\InternID-e-int212b061\spring-boot-rest-api\src\main\java\com\example\restservice\models\doctor\Doctor.java
 F:\virtualInternship\InternID-e-int212b061\spring-boot-rest-api\src\main\java\com\example\restservice\models\hospital\Hospital.java
@@ -6,9 +7,15 @@ F:\virtualInternship\InternID-e-int212b061\spring-boot-rest-api\src\main\java\co
 F:\virtualInternship\InternID-e-int212b061\spring-boot-rest-api\src\main\java\com\example\restservice\models\tutorial\Tutorial.java
 F:\virtualInternship\InternID-e-int212b061\spring-boot-rest-api\src\main\java\com\example\restservice\RestServiceApplication.java
 F:\virtualInternship\InternID-e-int212b061\spring-boot-rest-api\src\main\java\com\example\restservice\controllers\hospital\HospitalController.java
+F:\virtualInternship\InternID-e-int212b061\spring-boot-rest-api\src\main\java\com\example\restservice\repository\PatientRepository.java
+F:\virtualInternship\InternID-e-int212b061\spring-boot-rest-api\src\main\java\com\example\restservice\repository\TestRepository.java
 F:\virtualInternship\InternID-e-int212b061\spring-boot-rest-api\src\main\java\com\example\restservice\Greeting.java
 F:\virtualInternship\InternID-e-int212b061\spring-boot-rest-api\src\main\java\com\example\restservice\GreetingController.java
 F:\virtualInternship\InternID-e-int212b061\spring-boot-rest-api\src\main\java\com\example\restservice\repository\DoctorRepository.java
+F:\virtualInternship\InternID-e-int212b061\spring-boot-rest-api\src\main\java\com\example\restservice\models\patient\Patient.java
 F:\virtualInternship\InternID-e-int212b061\spring-boot-rest-api\src\main\java\com\example\restservice\repository\HospitalRepository.java
+F:\virtualInternship\InternID-e-int212b061\spring-boot-rest-api\src\main\java\com\example\restservice\models\patient\Address.java
 F:\virtualInternship\InternID-e-int212b061\spring-boot-rest-api\src\main\java\com\example\restservice\models\doctor\Address.java
 F:\virtualInternship\InternID-e-int212b061\spring-boot-rest-api\src\main\java\com\example\restservice\controllers\doctor\DoctorController.java
+F:\virtualInternship\InternID-e-int212b061\spring-boot-rest-api\src\main\java\com\example\restservice\controllers\patient\PatientController.java
+F:\virtualInternship\InternID-e-int212b061\spring-boot-rest-api\src\main\java\com\example\restservice\models\test\Test.java
