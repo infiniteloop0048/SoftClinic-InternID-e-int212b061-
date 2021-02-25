@@ -7,6 +7,7 @@ com\example\restservice\controllers\tutorial\TutorialController.class
 com\example\restservice\models\doctor\Address.class
 com\example\restservice\controllers\hospital\HospitalController.class
 com\example\restservice\RestServiceApplication.class
+com\example\restservice\controllers\patient\PatientController.class
 com\example\restservice\GreetingController.class
 com\example\restservice\Greeting.class
 com\example\restservice\controllers\doctor\DoctorController.class

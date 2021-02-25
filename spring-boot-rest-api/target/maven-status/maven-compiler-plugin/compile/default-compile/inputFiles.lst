@@ -12,3 +12,4 @@ F:\virtualInternship\InternID-e-int212b061\spring-boot-rest-api\src\main\java\co
 F:\virtualInternship\InternID-e-int212b061\spring-boot-rest-api\src\main\java\com\example\restservice\repository\HospitalRepository.java
 F:\virtualInternship\InternID-e-int212b061\spring-boot-rest-api\src\main\java\com\example\restservice\models\doctor\Address.java
 F:\virtualInternship\InternID-e-int212b061\spring-boot-rest-api\src\main\java\com\example\restservice\controllers\doctor\DoctorController.java
+F:\virtualInternship\InternID-e-int212b061\spring-boot-rest-api\src\main\java\com\example\restservice\controllers\patient\PatientController.java
