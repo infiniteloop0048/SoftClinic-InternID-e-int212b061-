@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 @CrossOrigin
@@ -58,6 +59,25 @@ public class PatientController {
         } catch (Exception e) {
             return new ResponseEntity<>(null, HttpStatus.INTERNAL_SERVER_ERROR);
         }
+    }
+
+    @GetMapping("/patients/id/{id}")
+    public ResponseEntity<Patient> getPatientById(@PathVariable("id") String id){
+        Optional<Patient> patient = patientRepository.findById(id);
+        if(patient.isPresent()){
+            return new ResponseEntity<>(patient.get(), HttpStatus.OK);
+        }
+        return new ResponseEntity<>(null, HttpStatus.NO_CONTENT);
+    }
+
+    @GetMapping("/patients/name/{name}")
+    public ResponseEntity<List<Patient>> getPatientByName(@PathVariable("name") String name){
+        List<Patient> patients = new ArrayList<>();
+        patients = patientRepository.findByName(name);
+        if(!patients.isEmpty()){
+            return new ResponseEntity<>(patients, HttpStatus.OK);
+        }
+        return new ResponseEntity<>(null, HttpStatus.NO_CONTENT);
     }
 
 }
