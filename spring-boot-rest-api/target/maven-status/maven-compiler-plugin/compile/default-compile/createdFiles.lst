@@ -3,6 +3,7 @@ com\example\restservice\repository\HospitalRepository.class
 com\example\restservice\repository\DoctorRepository.class
 com\example\restservice\repository\TestRepository.class
 com\example\restservice\models\doctor\Doctor.class
+com\example\restservice\models\prescription\Prescription.class
 com\example\restservice\controllers\test\TestController.class
 com\example\restservice\models\hospital\Address.class
 com\example\restservice\models\tutorial\Tutorial.class
