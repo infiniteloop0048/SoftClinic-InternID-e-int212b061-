@@ -9,5 +9,5 @@ import java.util.Optional;
 
 public interface PatientRepository extends MongoRepository<Patient, String> {
     List<Patient> findByName(String name);
-    List<Patient> findByNameAndDob(String name, String dob);
+    Optional<Patient> findByNameAndDob(String name, String dob);
 }

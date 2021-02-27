@@ -88,15 +88,15 @@ public class PatientController {
     }
 
     @GetMapping("/patients/namedob/{name}/{dob}")
-    public ResponseEntity<List<Patient>> getPatientByDobAndName(@PathVariable("name") String name, @PathVariable("dob")String dob){
+    public ResponseEntity<Patient> getPatientByDobAndName(@PathVariable("name") String name, @PathVariable("dob")String dob){
         try {
             System.out.println(name);
             System.out.println(dob);
-            List<Patient> patients = patientRepository.findByNameAndDob(name, dob);
-            if(patients.isEmpty()){
-                return new ResponseEntity<>(null, HttpStatus.NO_CONTENT);
+            Optional<Patient> patient = patientRepository.findByNameAndDob(name, dob);
+            if(patient.isPresent()){
+                return new ResponseEntity<>(patient.get(), HttpStatus.OK);
             }
-            return new ResponseEntity<>(patients, HttpStatus.OK);
+            return new ResponseEntity<>(null, HttpStatus.NO_CONTENT);
         }catch (Exception e){
             return new ResponseEntity<>(null, HttpStatus.INTERNAL_SERVER_ERROR);
         }
